@@ -1,7 +1,7 @@
 export function PostCard(props) {
     let {date, id, slug, title, _embedded} = props;
     let dateFormat = new Date(date).toLocaleString(),
-     urlPoster = _embedded["wp:featuredmedia"]?_embedded["wp:featuredmedia"][0].source_url:"app/assets/icons8-slot-machine-16.png";
+     urlPoster = _embedded["wp:featuredmedia"]?_embedded["wp:featuredmedia"][0].source_url:"/icons8-slot-machine-16.png";
     
     document.addEventListener("click", e =>{
         if(!e.target.matches(".post-card a")) return false;

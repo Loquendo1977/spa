@@ -1,6 +1,6 @@
 import api from "./wp_api.js";
-import {PostCard} from "../components/PostCard.js";
-import {SearchCard} from "../components/SearchCard.js";
+import {PostCard} from "./PostCard.js";
+import {SearchCard} from "./SearchCard.js";
 import {ajax} from "./ajax.js";
 
 export async function InfiniteScroll() {

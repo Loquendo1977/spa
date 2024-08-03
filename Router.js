@@ -1,5 +1,5 @@
-import { ajax } from "../helpers/ajax.js";
-import api from "../helpers/wp_api.js";
+import { ajax } from "./ajax.js";
+import api from "./wp_api.js";
 import { Post } from "./Post.js";
 import { PostCard } from "./PostCard.js";
 import { SearchCard } from "./SearchCard.js";
